@@ -96,7 +96,7 @@ socials:
 # Footer
 # -----------------------------------------------------------------------------
 footer: >
-I run Amazon advertising and Operations for brands selling technical products, and I build the systems that let me do it at agency scale. My personal projects are drone photography, and 3D printing custom topographical maps.
+  I run Amazon advertising and Operations for brands selling technical products, and I build the systems that let me do it at agency scale. My personal projects are drone photography, and 3D printing custom topographical maps.
 copyright: >
   © {{ year }} <a href="https://github.com/barcuspatty" target="_blank">Barcus Patty</a>.
   
