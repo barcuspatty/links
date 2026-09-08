@@ -98,8 +98,8 @@ socials:
 # Footer
 # -----------------------------------------------------------------------------
 footer: >
-  <p>I run Amazon advertising and operations for brands selling technical products, and I build the systems that let one person do what usually takes a team.</p>
-  <p>Personal projects: drone photography and 3D-printing projects.</p>
+  <p>Taking on one or two new brands a quarter. Automotive and industrial categories.</p>
+  <p>Email is the fastest way to reach me: <a href="mailto:barcus@high-shot.com">barcus@high-shot.com</a></p>
 copyright: >
   © {{ year }} <a href="https://github.com/barcuspatty" target="_blank">Barcus Patty</a>.
   
