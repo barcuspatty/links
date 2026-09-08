@@ -264,13 +264,13 @@ Anything `execute` returns lands at `vars.<PluginName>`. Examples:
 title: "{{ vars.HelloPlugin }}"
 
 # Hash lookup by key
-text: "{{ vars.GithubRepoStarsCountPlugin['ZhgChgLi/linkyee'] }} Stars"
+text: "{{ vars.GithubRepoStarsCountPlugin['barcuspatty/links'] }} Stars"
 
 # Nested hash
-text: "Last update: {{ vars.GithubLastCommitPlugin['ZhgChgLi/linkyee'].date }}"
+text: "Last update: {{ vars.GithubLastCommitPlugin['barcuspatty/links'].date }}"
 
 # Iteration (works in theme index.html, not in config.yml string fields)
-{% for post in vars.RSSFeedPlugin['https://blog.zhgchg.li/feed'] %}
+{% for post in vars.RSSFeedPlugin['https://example.com/feed.xml'] %}
   <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
 ```

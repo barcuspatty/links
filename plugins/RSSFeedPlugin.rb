@@ -8,19 +8,19 @@ require 'time'
 # List style (each entry is a feed URL, default limit = 5):
 #   plugins:
 #     - RSSFeedPlugin:
-#         - https://blog.zhgchg.li/feed
+#         - https://example.com/feed.xml
 #         - https://medium.com/feed/ztravel
 #
 # Output (Hash<String, Array<Hash>>):
 #   {
-#     "https://blog.zhgchg.li/feed" => [
+#     "https://example.com/feed.xml" => [
 #       { "title" => "...", "url" => "...", "date" => "2026-05-01" },
 #       ...
 #     ]
 #   }
 #
 # Use in Liquid:
-#   {% for item in vars.RSSFeedPlugin['https://blog.zhgchg.li/feed'] %}
+#   {% for item in vars.RSSFeedPlugin['https://example.com/feed.xml'] %}
 #     {{ item.title }} — {{ item.date }}
 #   {% endfor %}
 class RSSFeedPlugin < Plugin

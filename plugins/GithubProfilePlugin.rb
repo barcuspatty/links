@@ -6,15 +6,15 @@ require 'nokogiri'
 #
 #   plugins:
 #     - GithubProfilePlugin:
-#         - ZhgChgLi
+#         - barcuspatty
 #
 # Output (Hash<String, Hash>):
 #   {
-#     "ZhgChgLi" => { "followers" => 33, "following" => 0, "repos" => 29 }
+#     "barcuspatty" => { "followers" => 33, "following" => 0, "repos" => 29 }
 #   }
 #
 # Use in Liquid:
-#   {{ vars.GithubProfilePlugin['ZhgChgLi'].followers }} followers
+#   {{ vars.GithubProfilePlugin['barcuspatty'].followers }} followers
 #
 # Why scrape instead of using the REST API: the unauthenticated REST API
 # is capped at 60 requests/hour per IP. Frequent rebuilds during local

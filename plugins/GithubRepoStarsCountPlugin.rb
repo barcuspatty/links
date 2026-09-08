@@ -5,11 +5,11 @@ require 'nokogiri'
 #
 #   plugins:
 #     - GithubRepoStarsCountPlugin:
-#         - ZhgChgLi/linkyee
-#         - ZhgChgLi/ZMarkupParser
+#         - barcuspatty/links
+#         - barcuspatty/links
 #
 # Output (Hash<String, String|Integer>) accessible as:
-#   {{ vars.GithubRepoStarsCountPlugin['ZhgChgLi/linkyee'] }}
+#   {{ vars.GithubRepoStarsCountPlugin['barcuspatty/links'] }}
 #
 # Why scrape instead of using the API: the public GitHub API rate-limits
 # unauthenticated requests at 60/hour per IP, which is fragile for

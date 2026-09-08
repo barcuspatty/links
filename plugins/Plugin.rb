@@ -44,14 +44,14 @@ require 'fileutils'
 # Example (list-style):
 #   plugins:
 #     - GithubRepoStarsCountPlugin:
-#         - ZhgChgLi/linkyee
-#         - ZhgChgLi/ZMarkupParser
-#   # inside the plugin: args == ["ZhgChgLi/linkyee", "ZhgChgLi/ZMarkupParser"]
+#         - barcuspatty/links
+#         - barcuspatty/links
+#   # inside the plugin: args == ["barcuspatty/links", "barcuspatty/links"]
 #
 # Example (hash-style):
 #   plugins:
 #     - RSSFeedPlugin:
-#         url: https://blog.zhgchg.li/feed
+#         url: https://example.com/feed.xml
 #         limit: 5
 #   # inside the plugin: params == {"url" => "...", "limit" => 5}
 class Plugin
@@ -84,7 +84,7 @@ class Plugin
   # GET an HTTP(S) URL with redirect following. Returns Net::HTTPResponse,
   # or nil on failure. Never raises.
   #
-  #   resp = http_get("https://api.github.com/repos/ZhgChgLi/linkyee")
+  #   resp = http_get("https://api.github.com/repos/barcuspatty/links")
   #   return 0 unless resp&.is_a?(Net::HTTPSuccess)
   def http_get(url, headers: {}, redirect_limit: 5, timeout: 15)
     return nil if redirect_limit <= 0
@@ -193,7 +193,7 @@ class Plugin
 
   def default_headers
     {
-      'User-Agent' => 'linkyee/1.0 (+https://github.com/ZhgChgLi/linkyee)',
+      'User-Agent' => 'linkyee/1.0 (+https://github.com/barcuspatty/links)',
       'Accept' => '*/*'
     }
   end

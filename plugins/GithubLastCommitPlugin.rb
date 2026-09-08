@@ -5,11 +5,11 @@ require 'nokogiri'
 #
 #   plugins:
 #     - GithubLastCommitPlugin:
-#         - ZhgChgLi/linkyee
+#         - barcuspatty/links
 #
 # Output (Hash<String, Hash>):
 #   {
-#     "ZhgChgLi/linkyee" => {
+#     "barcuspatty/links" => {
 #       "sha" => "7d7392d2",
 #       "date" => "2026-05-07",
 #       "message" => "Add AI Style Designer skill, ..."
@@ -17,7 +17,7 @@ require 'nokogiri'
 #   }
 #
 # Use in Liquid:
-#   Last commit: {{ vars.GithubLastCommitPlugin['ZhgChgLi/linkyee'].date }}
+#   Last commit: {{ vars.GithubLastCommitPlugin['barcuspatty/links'].date }}
 class GithubLastCommitPlugin < Plugin
   def execute
     args.each_with_object({}) do |repo, out|
