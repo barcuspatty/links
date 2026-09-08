@@ -1,5 +1,5 @@
 /* newsprint — editorial-paper meets developer mono.
-   Inspired by https://link.zhgchg.li/. Cream paper with charcoal ink in
+   Cream paper with charcoal ink in
    light mode, warm-charcoal paper with bone ink in dark mode; serif name,
    sans body, mono accents (entry numbers, labels, dates). The signature
    move is the newspaper masthead with VOL/date and numbered link rows
@@ -347,8 +347,10 @@ a:focus-visible {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.footer-text a { color: inherit; border-bottom: 1px solid var(--rule); }
 .footer-text p { margin: 0 0 8px; }
 .footer-text p:last-child { margin-bottom: 0; }
+.footer-text a { color: inherit; border-bottom: 1px solid var(--rule); }
 .footer-text p { margin: 0 0 8px; }
 .footer-text p:last-child { margin-bottom: 0; }
 .footer-text {
