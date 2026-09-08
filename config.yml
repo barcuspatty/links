@@ -16,8 +16,10 @@ title: "Barcus Patty"
 avatar: "./images/profile.jpeg"
 name: "@barcuspatty"
 tagline: >-
- I run Amazon advertising and operations for brands selling technical products, and I build the systems that let me do it at agency scale. My personal projects are drone photography, and 3D printing custom topographical maps.
-  Fairhope, AL.
+  I run Amazon advertising and operations for brands selling technical products, and I build the systems that let one person do what usually takes a team.
+tagline_secondary: >-
+  Personal projects: drone photography and 3D-printing projects.
+location: "Fairhope, AL"
 
 # -----------------------------------------------------------------------------
 # Links
@@ -96,7 +98,8 @@ socials:
 # Footer
 # -----------------------------------------------------------------------------
 footer: >
-  I run Amazon advertising and Operations for brands selling technical products, and I build the systems that let me do it at agency scale. My personal projects are drone photography, and 3D printing custom topographical maps.
+  <p>I run Amazon advertising and operations for brands selling technical products, and I build the systems that let one person do what usually takes a team.</p>
+  <p>Personal projects: drone photography and 3D-printing projects.</p>
 copyright: >
   © {{ year }} <a href="https://github.com/barcuspatty" target="_blank">Barcus Patty</a>.
   
