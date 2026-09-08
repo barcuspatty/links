@@ -1,4 +1,5 @@
-theme: minimal-mono
+```yaml
+theme: newsprint
 lang: "en"
 color_scheme: auto
 
@@ -15,7 +16,7 @@ title: "Barcus Patty"
 avatar: "./images/profile.jpeg"
 name: "@barcuspatty"
 tagline: >-
-  Amazon PPC and ops automation. I build the tools I use, then print things in the garage.
+ I run Amazon advertising and operations for brands selling technical products, and I build the systems that let me do it at agency scale. My personal projects are drone photography, and 3D printing custom topographical maps.
   Fairhope, AL.
 
 # -----------------------------------------------------------------------------
@@ -91,9 +92,11 @@ socials:
       alt: "Email Barcus"
       target: "_self"
 
+# -----------------------------------------------------------------------------
+# Footer
+# -----------------------------------------------------------------------------
 footer: >
-  Fairhope, Alabama. Amazon operator by day, 3D printer and map nerd by night.
-
+I run Amazon advertising and Operations for brands selling technical products, and I build the systems that let me do it at agency scale. My personal projects are drone photography, and 3D printing custom topographical maps.
 copyright: >
   © {{ year }} <a href="https://github.com/barcuspatty" target="_blank">Barcus Patty</a>.
-  Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a>
+  
