@@ -64,6 +64,8 @@
         </div>
       </div>
       <p class="masthead-bio">{{ tagline }}</p>
+      {% if tagline_secondary %}<p class="masthead-bio">{{ tagline_secondary }}</p>{% endif %}
+      {% if location %}<p class="masthead-location mono"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>{{ location }}</span></p>{% endif %}
     </header>
 
     {% assign link_count = links | size %}
