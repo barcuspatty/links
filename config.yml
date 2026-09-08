@@ -25,7 +25,7 @@ links:
   - link:
       icon: "fa-brands fa-linkedin"
       text: "Amazon PPC & Ops Automation <span class='link-button-text'>(what I do)</span>"
-      url: "https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/"
+      url: "https://www.linkedin.com/in/barcuspatty/"
       alt: "Barcus Patty on LinkedIn"
       title: "Amazon advertising and operations automation"
       target: "_blank"
@@ -68,7 +68,7 @@ links:
 socials:
   - social:
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/"
+      url: "https://www.linkedin.com/in/barcuspatty/"
       title: "LinkedIn"
       alt: "Barcus Patty on LinkedIn"
       target: "_blank"
@@ -79,21 +79,15 @@ socials:
       alt: "Barcus Patty on GitHub"
       target: "_blank"
   - social:
-      icon: "fa-brands fa-youtube"
-      url: "https://www.youtube.com/@YOUR-YOUTUBE-HANDLE"
-      title: "YouTube"
-      alt: "Barcus Patty on YouTube"
-      target: "_blank"
-  - social:
       icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/YOUR-IG-HANDLE/"
+      url: "https://www.instagram.com/barcus.p/"
       title: "Instagram"
       alt: "Barcus Patty on Instagram"
       target: "_blank"
   - social:
       icon: "fa-solid fa-envelope"
-      url: "mailto:YOUR@EMAIL.COM"
-      title: "Email"
+      url: "mailto:barcus@high-shot.com"
+      title: "Email: barcus@high-shot.com"
       alt: "Email Barcus"
       target: "_self"
 
